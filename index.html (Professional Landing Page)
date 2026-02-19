@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vyaptech - WhatsApp API SaaS</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header>
+  <div class="logo">Vyaptech</div>
+  <nav>
+    <a href="login.html" class="btn">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Official WhatsApp API for Businesses</h1>
+  <p>Automate marketing, support & sales with one platform.</p>
+  <a href="login.html" class="primary-btn">Get Started</a>
+</section>
+
+<section class="features">
+  <h2>Powerful Features</h2>
+  <div class="grid">
+    <div class="card">Bulk Messaging</div>
+    <div class="card">Automation Flows</div>
+    <div class="card">CRM Integration</div>
+    <div class="card">Live Chat Panel</div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Vyaptech SaaS Platform
+</footer>
+
+</body>
+</html>

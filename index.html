@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp API SaaS - Vyaptech</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial; text-align:center; padding:40px;">
+
+<h2>WhatsApp API SaaS Platform</h2>
+<p>Book Free Demo Now</p>
+
+<form onsubmit="sendToWhatsApp(event)">
+  <input type="text" id="name" placeholder="Your Name" required><br><br>
+  <input type="text" id="phone" placeholder="Your Phone" required><br><br>
+  <input type="text" id="business" placeholder="Business Name" required><br><br>
+  <button type="submit">Book Demo</button>
+</form>
+
 <script>
 function sendToWhatsApp(e) {
   e.preventDefault();
@@ -6,7 +24,6 @@ function sendToWhatsApp(e) {
   var phone = document.getElementById('phone').value;
   var business = document.getElementById('business').value;
 
-  // Send data to Google Sheet
   fetch("https://script.google.com/macros/s/AKfycbx9uZA9EluE79_Brltvhg6FjUKlChn2zwHCA3bZN3pCNJOq3oiD6RyfxCYLPjBAR2JX/exec", {
     method: "POST",
     mode: "no-cors",
@@ -20,8 +37,10 @@ function sendToWhatsApp(e) {
     })
   });
 
-  // Open WhatsApp
   var message = `New Demo Request:%0AName: ${name}%0APhone: ${phone}%0ABusiness: ${business}`;
   window.open(`https://wa.me/919673075111?text=${message}`, '_blank');
 }
 </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {margin:0;font-family:Arial;background:#f5f6fa;}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  background:#111;
+  color:white;
+}
+
+.logo {font-weight:bold;font-size:20px;}
+
+nav .btn {
+  background:#25D366;
+  padding:10px 20px;
+  color:white;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:80px 20px;
+  background:#25D366;
+  color:white;
+}
+
+.primary-btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:black;
+  color:white;
+  text-decoration:none;
+}
+
+.features {
+  padding:60px 20px;
+  text-align:center;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+
+.card {
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+.auth-box {
+  width:300px;
+  margin:100px auto;
+  background:white;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.auth-box input {
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+}
